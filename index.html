@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Almet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -14,12 +15,12 @@
 <body>
 
     <nav class="navbar">
-        <div class="container-xl">
+        <div class="container">
             <span class="navbar-brand mb-0 h1">#Әлмәт#Познаю_И_Открываю</span>
         </div>
     </nav>
 
-    <div class="container-xl mb-5">
+    <div class="container my-5">
         <div class="ratio ratio-16x9">
             <iframe
                     src="https://frontend.vh.yandex.ru/player/{video_content_id}?from=partner&autoplay=1&mute=1"
@@ -28,7 +29,7 @@
         </div>
     </div>
 
-    <div class="container-xl my-5">
+    <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-12 col-xl-4">
                 <h1>Что такое Альметьевск?</h1>
@@ -40,12 +41,12 @@
         </div>
     </div>
 
-    <div class="container-xl my-5">
+    <div class="container my-5">
         <div class="row">
-            <div class="col-12 img-hover promo-container ">
+            <div class="col-12 img-hover promo-container">
                 <img src="assets/images/promo-bg-light.jpg" class="img-fluid" alt="img">
-                <div class="promo-text d-flex bg-white">
-                    <div class="col-5 col-xl-4 px-xl-3">
+                <div class="promo-text d-xl-flex bg-white">
+                    <div class="col-12 col-xl-4 px-xl-3">
                         <p>
                             Есть маленький город в пойме реки Зая<br>
                             <strong>Альметьевск</strong> ласково мы его называем<br>
@@ -54,9 +55,10 @@
                             И труд их во славу всей русской земли
                         </p>
                     </div>
-                    <div class="col-7 col-xl-8 px-xl-3">
+                    <div class="col-12 col-xl-8 px-xl-3">
                         <a href="#attractions" class="btn btn-outline-primary my-1">#достопримечательности</a>
-                        <a class="btn btn-outline-primary my-1">#развлекательно-оздоровительные центры</a>
+                        <a class="btn btn-outline-primary my-1">#оздоровительные центры</a>
+                        <a class="btn btn-outline-primary my-1">#развлекательные центры</a>
                         <a class="btn btn-outline-primary my-1">#базы отдыха</a>
                         <a class="btn btn-outline-primary my-1">#кафе и рестораны</a>
                         <a href="#tours" class="btn btn-outline-primary my-1">#туры</a>
@@ -67,7 +69,7 @@
         </div>
     </div>
 
-    <div id="attractions" class="section-with-carousel section-with-right-offset position-relative container-xl my-5">
+    <div id="attractions" class="section-with-carousel section-with-right-offset position-relative container my-5">
         <div class="d-flex justify-content-between">
             <h2 class="mb-3">Достопримечательности в Альметьевске</h2>
             <div class="carousel-controls">
@@ -167,7 +169,7 @@
         </div>
     </div>
 
-    <div id="health-center" class="container-xl my-5">
+    <div id="health-center" class="container my-5">
 
         <div class="row">
 
@@ -189,14 +191,14 @@
 
     </div>
 
-    <div id="tours" class="container-xl my-5">
-        <h2 class="w-50 w-xl-100">Гастрономический автотур по ПАО "Татнефть-АЗС Центр"</h2>
+    <div id="tours" class="container my-5">
+        <h2>Гастрономический автотур по ПАО "Татнефть-АЗС Центр"</h2>
         <div class="row">
             <button class="tour-card col-6 col-xl-3 p-4" data-bs-toggle="modal" data-bs-target="#tour-1">
                 <div class="d-flex align-items-end">
                     <div class="tour-number bg-pink">1</div>
                     <div class="tour-title">
-                        <span>на машине</span>
+                        <span class="d-xl-block d-none">на машине</span>
                         <p>тур</p>
                     </div>
                 </div>
@@ -210,7 +212,7 @@
                 <div class="d-flex align-items-end">
                     <div class="tour-number bg-blue">2</div>
                     <div class="tour-title">
-                        <span>семейный</span>
+                        <span class="d-xl-block d-none">семейный</span>
                         <p>тур</p>
                     </div>
                 </div>
@@ -224,7 +226,7 @@
                 <div class="d-flex align-items-end">
                     <div class="tour-number bg-yellow">3</div>
                     <div class="tour-title">
-                        <span>для старшего поколения</span>
+                        <span class="d-xl-block d-none">для старшего поколения</span>
                         <p>тур</p>
                     </div>
                 </div>
@@ -240,7 +242,7 @@
                 <div class="d-flex align-items-end">
                     <div class="tour-number bg-blue">4</div>
                     <div class="tour-title">
-                        <span>для студентов <br> и молодых специалистов</span>
+                        <span class="d-xl-block d-none">для студентов <br> и молодых специалистов</span>
                         <p>тур</p>
                     </div>
                 </div>

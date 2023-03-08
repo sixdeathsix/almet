@@ -129,3 +129,17 @@ img {
     padding: 10px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .tour-title > p, .tour-number {
+        font-size: 40px;
+    }
+
+    .promo-text {
+        position: static;
+    }
+
+    .promo-container {
+        position: static;
+    }
+}
