@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 1s;
+}
+
+.img-hover {
+    overflow: hidden;
+    padding: 0;
+}
+
+.img-hover:hover img {
+    transform: scale(1.05);
+}
+
+.logo-title {
+    position: relative;
+    transition: .2s ease-out;
+    margin-bottom: 0;
+}
+
+.tour-card {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    transition: .15s linear;
+    border-radius: 5px;
+}
+
+.tour-card:hover {
+    background: rgba(141, 205, 255, 0.3);
+}
+
+.tour-number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.tour-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5px;
+}
+
+.tour-title > span {
+    font-weight: bold;
+    color: grey;
+    text-align: start;
+    line-height: 20px;
+}
+
+.tour-title > p, .tour-number {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.bg-pink {
+    background: #fd8f90;
+}
+
+.bg-blue {
+    background: #8dcdff;
+}
+
+.bg-yellow {
+    background: #fcd08f;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.promo-text {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    padding: 20px 15px;
+    color: #000;
+}
+
+.promo-container {
+    position: relative;
+    color: white;
+}
+
+.modal-img {
+    height: 95vh;
+}
+
+.article-container {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.img-holder {
+    width: 100%;
+    height: 100%;
+    background: url('../images/attraction_beach.jpg') center center / cover no-repeat;
+    transition: all 1s;
+}
+
+.img-holder:hover {
+    transform: scale(1.05);
+}
+
+.article-title-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-decoration: none;
+}
