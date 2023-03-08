@@ -178,7 +178,7 @@ a {
 .cafe {
     display: flex;
     flex-direction: column;
-    width: 47%;
+    width: 49%;
     background: rgba(218, 235, 255, 0.7);
     padding: 10px 15px;
     border-radius: 15px;
@@ -191,7 +191,7 @@ a {
 .cafe > a {
     color: grey;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 footer {
@@ -303,5 +303,14 @@ body.loader {
 
     .footer-links {
         width: 90%;
+    }
+
+    .preloader > h1 {
+        font-size: 40px;
+    }
+
+    .footer-logo {
+        font-size: 16px;
+        font-weight: 600;
     }
 }
