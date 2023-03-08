@@ -272,6 +272,17 @@ body.loader {
     100% { width: 100%; }
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .tour-title > p, .tour-number {
         font-size: 40px;
