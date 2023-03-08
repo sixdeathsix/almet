@@ -1,4 +1,3 @@
-const about = document.getElementById('about');
 const promo = document.getElementById('promo');
 const healthcenter = document.getElementById('health-center');
 const attractions = document.getElementById('attractions');
@@ -17,7 +16,6 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 
-observer.observe(about);
 observer.observe(promo);
 observer.observe(healthcenter);
 observer.observe(attractions);
