@@ -190,6 +190,36 @@ a {
     font-size: 14px;
 }
 
+footer {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(218, 235, 255, 0.7);
+}
+
+.footer-links {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    font-weight: 600;
+    transition: linear .2s;
+}
+
+.footer-link:hover {
+    opacity: 0.6;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 1024px) {
     .tour-title > p, .tour-number {
         font-size: 40px;
@@ -201,5 +231,9 @@ a {
 
     .promo-container {
         position: static;
+    }
+
+    .footer-links {
+        width: 90%;
     }
 }
