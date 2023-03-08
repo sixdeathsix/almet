@@ -1,16 +1,19 @@
 const preloader = document.getElementById('preloader');
-const about = document.getElementById('about');
 const video = document.getElementById('video');
+const about = document.getElementById('about');
+const promo = document.getElementById('promo');
 
 window.onload = function () {
     document.body.classList.add('loader');
     window.setTimeout(function () {
         document.body.classList.remove('loader');
         preloader.classList.add('hide');
-        about.classList.add('animate__fadeInUp');
-        about.classList.add('animate__animated');
         video.classList.add('animate__fadeInUp');
         video.classList.add('animate__animated');
+        about.classList.add('animate__fadeInUp');
+        about.classList.add('animate__animated');
+        promo.classList.add('animate__fadeInUp');
+        promo.classList.add('animate__animated');
     }, 1000);
 }
 
