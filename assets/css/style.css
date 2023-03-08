@@ -221,6 +221,7 @@ footer {
 }
 
 .footer-logo {
+    margin: 15px 0;
     font-size: 24px;
     font-weight: 600;
 }
@@ -269,6 +270,10 @@ body.loader {
     overflow: hidden;
 }
 
+#video {
+    padding: 0;
+}
+
 @keyframes loading {
     0% { width: 0; }
     20% { width: 45%; }
@@ -280,7 +285,7 @@ body.loader {
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 25%, 0);
     }
     100% {
         opacity: 1;
