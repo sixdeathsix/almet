@@ -4,7 +4,6 @@ const about = document.getElementById('about');
 const promo = document.getElementById('promo');
 
 window.onload = function () {
-    document.body.classList.add('loader');
     window.setTimeout(function () {
         document.body.classList.remove('loader');
         preloader.classList.add('hide');
