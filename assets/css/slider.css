@@ -6,6 +6,7 @@
 .section-with-carousel .swiper-slide img {
     width: 100%;
     height: 320px;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -14,9 +15,17 @@
     bottom: 0;
     left: 0;
     right: 0;
+    -webkit-transform: translateY(20%);
+    -ms-transform: translateY(20%);
     transform: translateY(20%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
     align-items: baseline;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding: 15px;
     text-align: center;
@@ -25,10 +34,13 @@
     color: white;
     font-size: 16px;
     background: rgba(141, 205, 255, 0.95);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
 }
 
 .section-with-carousel .swiper-slide figcaption svg {
+    -ms-flex-negative: 0;
     flex-shrink: 0;
     fill: white;
     margin-right: 10px;
@@ -37,10 +49,14 @@
 .section-with-carousel .swiper-slide-active figcaption {
     opacity: 1;
     visibility: visible;
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
 }
 
 .section-with-carousel .carousel-controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     z-index: 1;
     border: none;
@@ -49,6 +65,8 @@
 
 .section-with-carousel .carousel-controls .carousel-control {
     opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
 }
 
